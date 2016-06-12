@@ -6,6 +6,7 @@
 
 学习大纲
 * [知识图谱学习小组学习大纲](https://github.com/memect/kg-beijing/wiki/知识图谱学习小组学习大纲)
+   * [第一期w1：知识提取](https://github.com/memect/kg-beijing/wiki/%E7%AC%AC%E4%B8%80%E6%9C%9Fw1%EF%BC%9A%E7%9F%A5%E8%AF%86%E6%8F%90%E5%8F%96)  
 
 报名表 https://www.wenjuan.com/s/euAfUj/
 
