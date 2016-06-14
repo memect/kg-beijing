@@ -1,15 +1,15 @@
 >python signature_extractor.py data_1.txt data_2.txt data_3.txt data_4.txt data_5.txt
 File Name: data_1.txt
-Name: ÁõÈı;Liu, San
+Name: åˆ˜ä¸‰;Liu, San
 Phone Num.: +86 15912348765
 Email: sfghsdfg@abc.org.cn
 Org.:
 ---------------
 File Name: data_2.txt
-Name: ÀîËÄ;
+Name: æå››;
 Phone Num.: 010-34355675
 Email: lisi@beiqingdata.com
-Org.: ±±Çå´óÊı¾İ²úÒµÁªºÏ»á;µØÖ·£º±±¾©ÊĞº£µíÇø±±Çå´óÑ§¶«Â¥201ÊÒ
+Org.: åŒ—æ¸…å¤§æ•°æ®äº§ä¸šè”åˆä¼š;åœ°å€ï¼šåŒ—äº¬å¸‚æµ·æ·€åŒºåŒ—æ¸…å¤§å­¦ä¸œæ¥¼201å®¤
 ---------------
 File Name: data_3.txt
 Name: ;John Smith
@@ -18,14 +18,14 @@ Email:
 Org.: Data and Web Science Group;University of Mannheim, Germany
 ---------------
 File Name: data_4.txt
-Name: ÍõÎå;
+Name: ç‹äº”;
 Phone Num.: 010-51661202-257;13934567890
 Email: gdagsdfs@csdn.net
-Org.: CSDN-È«Çò×î´óÖĞÎÄIT¼¼ÊõÉçÇø£¨www.csdn.net£©;µØÖ·£º±±¾©ÊĞ³¯ÑôÇø¹ãË³±±´ó½Ö33ºÅÔºÒ»ºÅ Â¥¸£Âë´óÏÃB×ù12²ã
+Org.: CSDN-å…¨çƒæœ€å¤§ä¸­æ–‡ITæŠ€æœ¯ç¤¾åŒºï¼ˆwww.csdn.netï¼‰;åœ°å€ï¼šåŒ—äº¬å¸‚æœé˜³åŒºå¹¿é¡ºåŒ—å¤§è¡—33å·é™¢ä¸€å· æ¥¼ç¦ç å¤§å¦Båº§12å±‚
 ---------------
 File Name: data_5.txt
-Name: ÕÅÈı;
+Name: å¼ ä¸‰;
 Phone Num.: 15023345465
 Email: dfgasedt@126.com
-Org.: ±±¾©ÊĞÕÅÈıÂÉÊ¦ÊÂÎñËù|Beijing Zhangsan Law Firm;±±¾©ÊĞº£µíÇøÖĞ¹Ø´åÓĞÌõ½Ö1ºÅ£¬ÓÊ±à£º100080;No. 1 Youtiao Street , ZhongGuanCun West, Haidian District, Beijing 100080
+Org.: åŒ—äº¬å¸‚å¼ ä¸‰å¾‹å¸ˆäº‹åŠ¡æ‰€|Beijing Zhangsan Law Firm;åŒ—äº¬å¸‚æµ·æ·€åŒºä¸­å…³æ‘æœ‰æ¡è¡—1å·ï¼Œé‚®ç¼–ï¼š100080;No. 1 Youtiao Street , ZhongGuanCun West, Haidian District, Beijing 100080
 ---------------
