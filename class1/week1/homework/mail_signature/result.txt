@@ -1,0 +1,31 @@
+>python signature_extractor.py data_1.txt data_2.txt data_3.txt data_4.txt data_5.txt
+File Name: data_1.txt
+Name: 刘三;Liu, San
+Phone Num.: +86 15912348765
+Email: sfghsdfg@abc.org.cn
+Org.:
+---------------
+File Name: data_2.txt
+Name: 李四;
+Phone Num.: 010-34355675
+Email: lisi@beiqingdata.com
+Org.: 北清大数据产业联合会;地址：北京市海淀区北清大学东楼201室
+---------------
+File Name: data_3.txt
+Name: ;John Smith
+Phone Num.: +49 621 123 4567
+Email:
+Org.: Data and Web Science Group;University of Mannheim, Germany
+---------------
+File Name: data_4.txt
+Name: 王五;
+Phone Num.: 010-51661202-257;13934567890
+Email: gdagsdfs@csdn.net
+Org.: CSDN-全球最大中文IT技术社区（www.csdn.net）;地址：北京市朝阳区广顺北大街33号院一号 楼福码大厦B座12层
+---------------
+File Name: data_5.txt
+Name: 张三;
+Phone Num.: 15023345465
+Email: dfgasedt@126.com
+Org.: 北京市张三律师事务所|Beijing Zhangsan Law Firm;北京市海淀区中关村有条街1号，邮编：100080;No. 1 Youtiao Street , ZhongGuanCun West, Haidian District, Beijing 100080
+---------------
