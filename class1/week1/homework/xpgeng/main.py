@@ -51,17 +51,17 @@ def extract_information(signature, language, st):
     
     for item in words_list:
         
-        # extract tel list
+        # Extract tel list
         if p_tel.search(item): 
             tel_group = p_tel.search(item).group()
             tel_list.append(tel_group) 
         
-        # extract email list
+        # Extract email list
         elif p_email.search(item):
             m = p_email.search(item).group()
             email_list.append(m) 
             
-        # extract name and orgnization from Chinese signature
+        # Extract name and orgnization from Chinese signature
         elif language == "Chinese":
             words = pseg.cut(item)
             flag_list = [flag for word, flag in words]
@@ -91,15 +91,23 @@ def main(data):
     # Add Tagger
     st = StanfordNERTagger('english.all.3class.distsim.crf.ser.gz')
 
-    for signature in signature_list:
-        info_dict = extract_information(signature, judge_lang(signature), st)
-        print '姓名: {name}'.format(name=info_dict['name'][0])
-        for item in info_dict['orgnization']:
-            print "单位: %s" % item
-        for item in info_dict['tel']:
-            print item
-        print "Email: %s" % info_dict['email']
-        print '-'*7
+    # Write to result.txt
+    with open('result.txt', 'a') as f:
+        for signature in signature_list:
+            info_dict = extract_information(signature, judge_lang(signature), st)
+            name = '姓名: {name}'.format(name=info_dict['name'][0])
+            organization = '单位:'
+            for item in info_dict['orgnization']:
+                organization += "%s " % item
+            tel = ''
+            for item in info_dict['tel']:
+                tel += "%s\t" %item
+            email = "Email: %s" % info_dict['email']
+            info = '%s\n%s\n%s\n%s\n-------\n'% (name, organization, tel, email)
+            f.write(info)
+            print info
+    print "Done! Save into result.txt..."
+    f.close()
 
 if __name__ == '__main__':
     # Read data
