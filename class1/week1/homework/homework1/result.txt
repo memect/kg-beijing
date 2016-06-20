@@ -1,0 +1,4 @@
+{'email': ['lisi@beiqingdata.com'], 'name': ['李四'], 'tel': ['010-34355675'], 'orgnization': '北清大数据产业联合会'}
+{'email': ['gdagsdfs@csdn.net'], 'name': ['王五'], 'tel': ['010-51661202-257', '13934567890'], 'orgnization': '全球最大中文IT技术社区'}
+{'email': ['gdagsdfs@csdn.net'], 'name': ['王五'], 'tel': ['010-51661202-257', '13934567890'], 'orgnization': '广顺'}
+{'email': [' dfgasedt@126.com'], 'name': ['张三'], 'tel': ['15023345465'], 'orgnization': '北京市张三律师事务所'}
