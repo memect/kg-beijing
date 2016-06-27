@@ -1,0 +1,23 @@
+Hi friends,
+
+In light of the upcoming TPAC, I'd like to suggest a joint meeting between the two IGs. 
+
+There have been some discussion in the Chinese IG on things related to publishing and I thought it will be nice for us to catch up with the Digital Publishing IG.
+
+Agenda
+
+0. Mutual introduction
+1. CSS3 text (some discussion on our side)
+2. digital publishing requirement for chinese language (Bobby has written a spec/requirement and it'd be nice to know how everyone thinks)
+3. anything else?
+
+This discussion won't be an exhaustive one, rather it is to put names to faces, discuss the agendas, and hopefully drive future online discussions.
+
+If everyone is cool, maybe we can do a 90 minute on Thursday during TPAC? 
+
+---
+Zi Bin Cheah
+HTML5 Chinese IG chair
+
+
+<html><head></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; ">Hi friends,<br><br>In light of the upcoming TPAC, I'd like to suggest a joint meeting between the two IGs. <br><br>There have been some discussion in the Chinese IG on things related to publishing and I thought it will be nice for us to catch up with the Digital Publishing IG.<br><br>Agenda<br><br>0. Mutual introduction<br>1. CSS3 text (some discussion on our side)<br>2. digital publishing requirement for chinese language (Bobby has written a spec/requirement and it'd be nice to know how everyone thinks)<br>3. anything else?<br><br>This discussion won't be an exhaustive one, rather it is to put names to faces, discuss the agendas, and hopefully drive future online discussions.<br><br>If everyone is cool, maybe we can do a 90 minute on Thursday during TPAC? <br><br>---<br>Zi Bin Cheah<br>HTML5 Chinese IG chair<br><br><div apple-content-edited="true"><span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; "><span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; "><div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; "><span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; "><div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; "><div><div><div><br></div></div></div></div></span></div></span></span></div></body></html>
