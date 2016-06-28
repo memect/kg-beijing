@@ -1,0 +1,9 @@
+SELECT
+	name,
+	data->>'主料名称' AS stuff,
+	data->>'主料用量' AS detail,
+	regexp_replace(data->>'主料用量', '[^\d]+', '', 'g') AS g
+FROM dish
+WHERE data ? '主料名称'
+AND data ? '主料用量'
+LIMIT 10;
