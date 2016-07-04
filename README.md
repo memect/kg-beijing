@@ -9,6 +9,7 @@
   * [第一期w1：知识提取](https://github.com/memect/kg-beijing/wiki/%E7%AC%AC%E4%B8%80%E6%9C%9Fw1%EF%BC%9A%E7%9F%A5%E8%AF%86%E6%8F%90%E5%8F%96)  
   * [第一期w2：知识表示](https://github.com/memect/kg-beijing/wiki/%E7%AC%AC%E4%B8%80%E6%9C%9Fw2%EF%BC%9A%E7%9F%A5%E8%AF%86%E8%A1%A8%E7%A4%BA)
   * [第一期w3：知识存储](https://github.com/memect/kg-beijing/wiki/%E7%AC%AC%E4%B8%80%E6%9C%9Fw3%EF%BC%9A%E7%9F%A5%E8%AF%86%E5%AD%98%E5%82%A8)
+  * [第一期w4：知识检索](https://github.com/memect/kg-beijing/wiki/%E7%9F%A5%E8%AF%86%E6%A3%80%E7%B4%A2)
 
 报名表 https://www.wenjuan.com/s/euAfUj/
 
