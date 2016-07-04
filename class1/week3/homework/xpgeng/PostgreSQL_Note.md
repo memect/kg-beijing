@@ -69,6 +69,17 @@
     - 不过有些地方还想强调一下.
         - `conn.commit()`: 修改数据库后一定要记得提交...
           
+- 读取W3C的电子邮件JSON, 写入到数据库.
+    - 在这里遇到了几个问题
+    - 直接将读取的字典写入到数据库失败
+    - 转化为str后出现如下问题
+        
+            psycopg2.DataError: invalid input syntax for type json  
+            DETAIL:  Token "u" is invalid.  
+            CONTEXT:  JSON data, line 1: {u... 
+    - 我以为是编码的问题, 于是在读取JSON数据的时候加了 `encoding="utf-8"`, 还是不行.
+    - Google 之后发现一个日文的[答案](http://symfoware.blog68.fc2.com/blog-entry-1258.html). 他使用了psycopg2.extras这个模块的method:Json. 于是采用之. 
+    - Done!
 
 
 
@@ -83,3 +94,5 @@
 - [PostgreSQL JSON 数据类型--Author: Smallfish](http://chenxiaoyu.org/2014/07/25/postgresql-json.html)
 - [PostgreSql Official Documentation--8.14. JSON Types](https://www.postgresql.org/docs/current/static/datatype-json.html)
 - [PostgreSql Official Documentation--9.15. JSON Functions and Operators](https://www.postgresql.org/docs/current/static/functions-json.html)
+- [psycopg2.extras](http://initd.org/psycopg/docs/extras.html)
+    - Very Useful!! 
