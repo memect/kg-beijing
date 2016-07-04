@@ -68,7 +68,6 @@
     - 如果你熟悉python的sqlite3, 想必再看psycopg2会很容易, 由于段老师已经非常详细的介绍了用法, 这里就不一一说明,具体请看[这里](https://github.com/memect/kg-beijing/tree/master/KG-PostgreSQL/KG-PostgreSQL).
     - 不过有些地方还想强调一下.
         - `conn.commit()`: 修改数据库后一定要记得提交...
-        - 不要用`%`传递变量!!!
           
 
 
@@ -80,3 +79,7 @@
 - [PostgreSql Official Documentation](https://www.postgresql.org/docs/9.5/static/index.html)
 - [Install PostgeSQL on Mac OSX](https://www.postgresql.org/download/macosx/)
 - [GUI Tools of PostgreSQL.app](http://postgresapp.com/documentation/gui-tools.html)
+- [Querying JSON in Postgres](http://schinckel.net/2014/05/25/querying-json-in-postgres/)
+- [PostgreSQL JSON 数据类型--Author: Smallfish](http://chenxiaoyu.org/2014/07/25/postgresql-json.html)
+- [PostgreSql Official Documentation--8.14. JSON Types](https://www.postgresql.org/docs/current/static/datatype-json.html)
+- [PostgreSql Official Documentation--9.15. JSON Functions and Operators](https://www.postgresql.org/docs/current/static/functions-json.html)
