@@ -5,10 +5,10 @@
 - 数据的格式为
 
 
-> - `Metadata`: 这部分包含从MIME头提取的信息, 如'From', 'Receive', 'Send_time', 'Subject'等等  
-> - `Content`: 这部分会包含所有的内容信息, 如'Body\_text', 'Body\_html', 'Recite', 'Attachment', 'Signature'等等
-> - `Entities`: 包含邮件中提到的各种实体, 如'Name', 'Organization', 'Time', 'Position', 'Tel'
-> - `Relation`: 包含邮件内的各种关系, 如邮件之间的关系, 邮件内容的语义关系.
+> - `headers`: 这部分包含从MIME头提取的信息, 如'From', 'Receive', 'Send_time', 'Subject'等等  
+> - `content`: 这部分会包含所有的内容信息, 如'Body\_text', 'Body\_html', 'Recite', 'Attachment', 'Signature'等等
+> - `entity`: 包含邮件中提到的各种实体, 如'Name', 'Organization', 'Time', 'Position', 'Tel'
+> - `relation`: 包含邮件内的各种关系, 如邮件之间的关系, 邮件内容的语义关系.
 
 - 目前`Entities`, `Relation`做的还远远不够, 更深入的原因是无从下手, 尤其是关系的提取, 这也是以后要深入学习的地方.
 - 基本上知识的粒度本着层层递进的原则
