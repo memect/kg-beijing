@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import json
 import psycopg2
 
 conn = psycopg2.connect(database='test_db', host='localhost', port='5432',
@@ -17,15 +18,15 @@ cursor.execute('''
 
 
 cursor.execute('''
-    INSERT INTO dish
-    VALUES (%s, %s)
-    ''', ['发人人', '{"人二二": 4, "时扥": "森达"}'])
+    SELECT '{"名称": "仰望星空"}'::jsonb
+    ||'{"口味": {"奇葩": "满分"}}'::jsonb''')
 
 
 cursor.execute('''
     SELECT name, data
     FROM dish
-    ''')
+    ''',)
 
-print cursor.fetchall()
+for item in cursor.fetchone():
+    print item
 conn.commit()

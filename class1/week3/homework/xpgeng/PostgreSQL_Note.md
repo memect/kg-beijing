@@ -1,5 +1,9 @@
 # PostgreSQL 学习笔记
 
+## 系统
+
+## 介绍
+
 ## 安装
 - 系统为Mac OS, 虽然在Download里找到了安装方法, 可是在官方文档的Installation里竟然没有给出具体的Mac系统下的安装方法. 表示不解. 难道大家上来不是先看官网文档?
 
@@ -63,7 +67,9 @@
 - [Basic Module usage](http://initd.org/psycopg/docs/)
     - 如果你熟悉python的sqlite3, 想必再看psycopg2会很容易, 由于段老师已经非常详细的介绍了用法, 这里就不一一说明,具体请看[这里](https://github.com/memect/kg-beijing/tree/master/KG-PostgreSQL/KG-PostgreSQL).
     - 不过有些地方还想强调一下.
-        - `conn.commit()`: 修改数据库后一定要记得提交... 
+        - `conn.commit()`: 修改数据库后一定要记得提交...
+        - 不要用`%`传递变量!!!
+          
 
 
 
