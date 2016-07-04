@@ -15,12 +15,12 @@ cursor = conn.cursor()
 
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS
-    W3C(id serial primary key, data jsonb)
+    W3C(id serial primary key, data jsonb);
     ''')
 
 for item in data:
     cursor.execute('''
-        INSERT INTO W3C (data) VALUES (%s)
+        INSERT INTO W3C (data) VALUES (%s);
         ''', [psycopg2.extras.Json(item)])
 
 conn.commit()
