@@ -18,11 +18,16 @@ cursor.execute('''
     W3C(id serial primary key, data jsonb)
     ''')
 
-
-cursor.execute('''
-    INSERT INTO W3C (data) VALUES (%s)
-    ''', [psycopg2.extras.Json(data[1])])
+for item in data:
+    cursor.execute('''
+        INSERT INTO W3C (data) VALUES (%s)
+        ''', [psycopg2.extras.Json(item)])
 
 conn.commit()
+
+cursor.close()
+conn.close()
+
+
 
 
