@@ -1,4 +1,4 @@
-{'email': ['lisi@beiqingdata.com'], 'name': ['ÀîËÄ'], 'tel': ['010-34355675'], 'orgnization': '±±Çå´óÊı¾İ²úÒµÁªºÏ»á'}
-{'email': ['gdagsdfs@csdn.net'], 'name': ['ÍõÎå'], 'tel': ['010-51661202-257', '13934567890'], 'orgnization': 'È«Çò×î´óÖĞÎÄIT¼¼ÊõÉçÇø'}
-{'email': ['gdagsdfs@csdn.net'], 'name': ['ÍõÎå'], 'tel': ['010-51661202-257', '13934567890'], 'orgnization': '¹ãË³'}
-{'email': [' dfgasedt@126.com'], 'name': ['ÕÅÈı'], 'tel': ['15023345465'], 'orgnization': '±±¾©ÊĞÕÅÈıÂÉÊ¦ÊÂÎñËù'}
+ï»¿{'email': ['lisi@beiqingdata.com'], 'name': ['æå››'], 'tel': ['010-34355675'], 'orgnization': 'åŒ—æ¸…å¤§æ•°æ®äº§ä¸šè”åˆä¼š'}
+{'email': ['gdagsdfs@csdn.net'], 'name': ['ç‹äº”'], 'tel': ['010-51661202-257', '13934567890'], 'orgnization': 'å…¨çƒæœ€å¤§ä¸­æ–‡ITæŠ€æœ¯ç¤¾åŒº'}
+{'email': ['gdagsdfs@csdn.net'], 'name': ['ç‹äº”'], 'tel': ['010-51661202-257', '13934567890'], 'orgnization': 'å¹¿é¡º'}
+{'email': [' dfgasedt@126.com'], 'name': ['å¼ ä¸‰'], 'tel': ['15023345465'], 'orgnization': 'åŒ—äº¬å¸‚å¼ ä¸‰å¾‹å¸ˆäº‹åŠ¡æ‰€'}
